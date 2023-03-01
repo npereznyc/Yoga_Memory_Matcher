@@ -3,7 +3,7 @@ import { useState } from "react"
 
 function Nav() {
     const [seconds, setSeconds] = useState(0)
-    const [time, setTime] = useState(0)
+    const [minutes, setMinutes] = useState(0)
     const [start, setStart] = useState(false)
 
     const startTimer = () =>{
